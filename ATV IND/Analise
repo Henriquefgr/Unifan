@@ -1,0 +1,18 @@
+A árvore AVL foi selecionada por manter os livros ordenados por título, permitindo inserções, remoções e buscas rápidas,
+com complexidade O(log N). Isso garante alto desempenho, mesmo com o crescimento constante do acervo.
+Para as buscas, o algoritmo de busca binária foi utilizado. Esta técnica é ideal para listas ou árvores ordenadas,
+operando com uma performance otimizada de O(log N), proporcionando uma resposta rápida às solicitações dos usuários.
+Quando se trata de ordenação dos livros, dois algoritmos se destacam: Quick Sort e Merge Sort.
+O Quick Sort, com complexidade média de O(N log N), é extremamente eficiente para grandes volumes de dados.
+Já o Merge Sort, com uma complexidade constante de O(N log N), oferece uma alternativa estável,
+embora requeira espaço adicional. O Bubble Sort foi utilizado para coleções menores,
+onde seu tempo de execução O(N²) é aceitável devido ao baixo volume de dados.
+No gerenciamento de empréstimos, foram escolhidas a fila (Queue) e a pilha (Stack). A fila foi utilizada para assegurar
+que os livros fossem emprestados na ordem correta de solicitação (FIFO),enquanto a pilha manteve o histórico de 
+empréstimos de cada usuário, permitindo operações de "desfazer" (LIFO).
+Para registrar as atividades da biblioteca e gerar relatórios semanais, a lista encadeada foi a estrutura de dados
+escolhida. Ela permite inserções rápidas de novos registros e facilita a travessia para análise de dados,
+com complexidade O(1) para inserção e O(N) para travessia
+Essas escolhas de estruturas de dados e algoritmos garantiram um sistema escalável, eficiente e fácil de usar.
+Com isso, o sistema está pronto para lidar com o crescimento contínuo do acervo de livros e a crescente demanda de
+empréstimos, mantendo alta performance e organização em todas as operações da biblioteca.
